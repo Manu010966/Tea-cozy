@@ -1,0 +1,109 @@
+/* This is the color of the main menu */
+a{
+  color:seashell;
+}
+/*this is the set-up for the body*/
+body{
+    margin: 0;
+    font-family: "Helvetica", sans-serif;
+    color: seashell;
+    background-color: black;
+    font-size: 22px;
+    text-align: center;
+}
+/*this is the set-up of footer*/
+footer{
+  text-align: left;
+  padding-left: 20px;
+}
+
+h2, h4, h3{
+  margin:0;
+  padding: 10px;
+}
+
+header img{
+  height: 50px;
+  padding-left: 10px;
+}
+/* these are the parameters for nav section*/
+nav{
+  text-align: right;
+  flex-grow: 1;
+}
+nav span{
+  display:inline-block;
+  padding: 20px 10px;
+}
+
+.principal{
+  margin:auto;
+  opacity:0.9;
+  padding-top:69px;
+  width:1200px;
+}
+
+.contenedor-flexible{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* establece los parametros de la classe contenedor flexible direcion*/
+.contenedor-flexible.direcciones{
+  padding-top: 5px;
+}
+
+.item{
+  padding: 5px;
+}
+
+.item img{
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+.item span{
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+/* establece los parametros de la classe direcion*/
+.direccion{
+  opacity: 1.0;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#contacto{
+  height: 200px;
+}
+#mision{
+  height: 700px;
+  background-image:url("../images/img-mission-background.jpg");
+  padding-top: 70px;
+}
+#mision .contenido{
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+#tienda{
+    height: 700px;
+    width: 1000px;
+    margin: auto;
+    padding-top: 70px;
+}
+#direcciones{
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  padding-top: 70px;
+}
+#direcciones .contenedor-flexible{
+  margin: auto;
+  width: 1100px;
+}
